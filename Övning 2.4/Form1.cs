@@ -24,7 +24,7 @@ namespace Övning_2._4
             float bredd;
             float höjd;
             bool breddOK = float.TryParse(tbxBredd.Text, out bredd);
-            bool höjdOK = float.TryParse(tbxBredd.Text, out höjd);
+            bool höjdOK = float.TryParse(tbxHöjd.Text, out höjd);
 
             if (breddOK && höjdOK)
             {
@@ -39,7 +39,7 @@ namespace Övning_2._4
             float bredd;
             float höjd;
             bool breddOK = float.TryParse(tbxBredd.Text, out bredd);
-            bool höjdOK = float.TryParse(tbxBredd.Text, out höjd);
+            bool höjdOK = float.TryParse(tbxHöjd.Text, out höjd);
 
             if (breddOK && höjdOK)
             {
@@ -54,7 +54,7 @@ namespace Övning_2._4
             float bredd;
             float höjd;
             bool breddOK = float.TryParse(tbxBredd.Text, out bredd);
-            bool höjdOK = float.TryParse(tbxBredd.Text, out höjd);
+            bool höjdOK = float.TryParse(tbxHöjd.Text, out höjd);
 
             if (breddOK && höjdOK)
             {
