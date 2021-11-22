@@ -42,7 +42,7 @@ namespace Övning_2._4
 
         public float BeräknaArea()
         {
-            return bredd * (float)Math.PI;
+            return bredd * bredd * (float)Math.PI;
         }
         public override string ToString()
         {
